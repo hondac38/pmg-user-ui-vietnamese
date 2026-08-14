@@ -281,56 +281,6 @@ Giao diện End-user Quarantine:
 
 ---
 
-## Sau khi nâng cấp PMG
-
-Các package PMG có thể ghi đè các file đã patch.
-
-Sau khi nâng cấp, chạy:
-
-    ./scripts/verify.sh
-
-Nếu verifier báo lỗi, không nên ép patch cũ.
-
-Kiểm tra phiên bản:
-
-    pmgversion -v
-
-Sau đó xác nhận project đã hỗ trợ phiên bản PMG mới hay chưa.
-
----
-
-## Cập nhật project
-
-Lấy tag mới:
-
-    git fetch --tags
-
-Xem danh sách release:
-
-    git tag --sort=-version:refname
-
-Checkout release mong muốn:
-
-    git checkout v0.1.1
-
-Trước khi cài lại:
-
-    ./scripts/install.sh --dry-run
-
----
-
-## Repository
-
-GitHub:
-
-    https://github.com/hondac38/pmg-user-ui-vietnamese
-
-Maintainer:
-
-    hondac38
-
----
-
 ## Trạng thái v0.1.1
 
     Installer dry-run : PASS
