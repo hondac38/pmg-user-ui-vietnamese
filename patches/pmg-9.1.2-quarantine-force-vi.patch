@@ -1,0 +1,12 @@
+--- upstream/pmgproxy.pm.original	2026-07-24 18:07:45.000000000 +0700
++++ /usr/share/perl5/PMG/Service/pmgproxy.pm	2026-08-14 15:00:12.667225423 +0700
+@@ -240,6 +240,9 @@
+         }
+     }
+ 
++    # Force Vietnamese only for the end-user quarantine UI.
++    $lang = 'vi' if $quarantine;
++
+     if ($theme eq "") {
+         $theme = "auto";
+     }

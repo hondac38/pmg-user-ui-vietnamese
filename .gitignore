@@ -1,0 +1,6 @@
+*.bak
+*.orig
+*.rej
+*~
+.DS_Store
+upstream/

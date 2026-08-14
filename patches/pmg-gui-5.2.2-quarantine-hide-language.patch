@@ -1,0 +1,14 @@
+--- upstream/pmgmanagerlib.js.runtime-before-hide-language	2026-08-14 10:37:16.916481982 +0700
++++ /usr/share/javascript/pmg-gui/js/pmgmanagerlib.js	2026-08-14 14:32:33.941403600 +0700
+@@ -6078,11 +6078,6 @@
+                             text: gettext('Color Theme'),
+                         },
+                         {
+-                            iconCls: 'fa fa-language',
+-                            text: gettext('Language'),
+-                            reference: 'languageButton',
+-                        },
+-                        {
+                             iconCls: 'fa fa-mobile',
+                             text: gettext('Switch to Mobile View'),
+                             reference: 'mobileButton',
